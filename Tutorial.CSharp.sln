@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02B6CCF5-9F0D-4049-83FE-25789B9261D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{45B875A7-FB0F-4158-97F6-A163697D5042}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinaryOperation", "BinaryOperation", "{51109B12-084D-4F7B-B2B9-C873650C1C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryOperation", "src\binaryOperation\BinaryOperation\BinaryOperation.csproj", "{77F29AF1-4FD0-47F2-9D59-4AEDC1EE0707}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F29AF1-4FD0-47F2-9D59-4AEDC1EE0707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F29AF1-4FD0-47F2-9D59-4AEDC1EE0707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F29AF1-4FD0-47F2-9D59-4AEDC1EE0707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F29AF1-4FD0-47F2-9D59-4AEDC1EE0707}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51109B12-084D-4F7B-B2B9-C873650C1C6F} = {02B6CCF5-9F0D-4049-83FE-25789B9261D4}
+		{77F29AF1-4FD0-47F2-9D59-4AEDC1EE0707} = {51109B12-084D-4F7B-B2B9-C873650C1C6F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE4962C4-0B57-451D-BDFB-3DDC724E2E52}
+	EndGlobalSection
+EndGlobal
