@@ -12,7 +12,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinaryOperation", "BinaryOperation", "{51109B12-084D-4F7B-B2B9-C873650C1C6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryOperation", "src\binaryOperation\BinaryOperation\BinaryOperation.csproj", "{77F29AF1-4FD0-47F2-9D59-4AEDC1EE0707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryOperation", "src\binaryOperation\BinaryOperation\BinaryOperation.csproj", "{77F29AF1-4FD0-47F2-9D59-4AEDC1EE0707}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishSubscribe", "PublishSubscribe", "{3C275759-2E64-45B6-A8AA-220D135729E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishSubscribe.DelegateEvent", "src\PublishSubscribe\PublishSubscribe.DelegateEvent\PublishSubscribe.DelegateEvent.csproj", "{22CC3FDC-4993-4424-B940-F72BE85DFAFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishSubscribe.IObservable", "src\PublishSubscribe\PublishSubscribe.IObservable\PublishSubscribe.IObservable.csproj", "{B1C7659A-7485-4F59-A3BA-21C00E04CD6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishSubscribe.DiagnosticSource", "src\PublishSubscribe\PublishSubscribe.DiagnosticSource\PublishSubscribe.DiagnosticSource.csproj", "{53F4E07B-E40C-4266-8837-A258191F755D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +32,18 @@ Global
 		{77F29AF1-4FD0-47F2-9D59-4AEDC1EE0707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77F29AF1-4FD0-47F2-9D59-4AEDC1EE0707}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77F29AF1-4FD0-47F2-9D59-4AEDC1EE0707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CC3FDC-4993-4424-B940-F72BE85DFAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CC3FDC-4993-4424-B940-F72BE85DFAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CC3FDC-4993-4424-B940-F72BE85DFAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CC3FDC-4993-4424-B940-F72BE85DFAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C7659A-7485-4F59-A3BA-21C00E04CD6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C7659A-7485-4F59-A3BA-21C00E04CD6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C7659A-7485-4F59-A3BA-21C00E04CD6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C7659A-7485-4F59-A3BA-21C00E04CD6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F4E07B-E40C-4266-8837-A258191F755D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F4E07B-E40C-4266-8837-A258191F755D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F4E07B-E40C-4266-8837-A258191F755D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F4E07B-E40C-4266-8837-A258191F755D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -31,6 +51,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{51109B12-084D-4F7B-B2B9-C873650C1C6F} = {02B6CCF5-9F0D-4049-83FE-25789B9261D4}
 		{77F29AF1-4FD0-47F2-9D59-4AEDC1EE0707} = {51109B12-084D-4F7B-B2B9-C873650C1C6F}
+		{3C275759-2E64-45B6-A8AA-220D135729E6} = {02B6CCF5-9F0D-4049-83FE-25789B9261D4}
+		{22CC3FDC-4993-4424-B940-F72BE85DFAFC} = {3C275759-2E64-45B6-A8AA-220D135729E6}
+		{B1C7659A-7485-4F59-A3BA-21C00E04CD6B} = {3C275759-2E64-45B6-A8AA-220D135729E6}
+		{53F4E07B-E40C-4266-8837-A258191F755D} = {3C275759-2E64-45B6-A8AA-220D135729E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE4962C4-0B57-451D-BDFB-3DDC724E2E52}
